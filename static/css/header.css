@@ -1,0 +1,200 @@
+.top {
+  background-color: #fff;
+  overflow: hidden;
+}
+.logo a {
+  display: block;
+  width: 200px;
+  height: 70px;
+  background: url('../images/logo.png') no-repeat left center;
+  background-size: 141px 33px;
+}
+.top .nav ul,
+.top .menu ul {
+  overflow: hidden;
+}
+.top .nav ul li,
+.top .menu ul li {
+  float: left;
+}
+.top .nav ul li a {
+  display: block;
+  font-size: 18px;
+  color: #000;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 27px;
+}
+.top .menu ul li a {
+  display: block;
+  font-size: 18px;
+  color: #000;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 18px;
+}
+.top .menu ul li a.help {
+  background: url('../images/help-bg.png') no-repeat left center;
+  background-size: 19px 16px;
+  padding-left: 25px;
+}
+/*banner*/
+.banner-img {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  min-width: 1200px;
+}
+.banner-img {
+  background: url('../images/banner-img.jpg') no-repeat center;
+  background-size: cover;
+}
+.prev-btn,
+.next-btn {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  z-index: 100;
+  margin-top: -90px;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  cursor: pointer;
+}
+.prev-btn {
+  background: url('../images/prev-btn.png') no-repeat center;
+  background-size: 100% 100%;
+  top: 50%;
+  left: 76px;
+}
+.next-btn {
+  background: url('../images/next-btn.png') no-repeat center;
+  background-size: 100% 100%;
+  top: 50%;
+  right: 76px;
+}
+/*合作伙伴*/
+.partner {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  top: 100%;
+  z-index: 10;
+  min-width: 1200px;
+}
+.partner .container {
+  width: 924px;
+  overflow: hidden;
+}
+.partner .title {
+  font-size: 30px;
+  color: #000;
+  line-height: 70px;
+}
+.partner-list ul {
+  overflow: hidden;
+  padding: 0 20px;
+}
+.partner-list ul li {
+  float: left;
+  width: 162px;
+  height: 44px;
+  padding: 13px 10px;
+}
+.partner-list ul li a,
+.partner-list ul li img {
+  display: block;
+  width: 162px;
+  height: 44px;
+}
+.partner .more a {
+  display: block;
+  font-size: 16px;
+  color: #000;
+  line-height: 70px;
+}
+/*footer*/
+.footer {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  margin-top: 70px;
+  background-color: #4c4c4c;
+  padding: 30px 0;
+  min-width: 1200px;
+}
+.footer .container {
+  width: 924px;
+  overflow: hidden;
+}
+.footer .menu {
+  float: left;
+  margin-right: 80px;
+}
+.footer .menu h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: normal;
+  padding: 10px 0;
+}
+.footer .menu ul li a {
+  display: block;
+  font-size: 14px;
+  color: #c2c2c2;
+  padding: 10px 0;
+}
+.footer .contact {
+  float: right;
+  max-width: 300px;
+}
+.footer .contact h3 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: normal;
+  padding: 20px 0 20px 25px;
+}
+.footer .contact ul {
+  overflow: hidden;
+}
+.footer .contact ul li {
+  font-size: 14px;
+  color: #c2c2c2;
+  padding: 10px 0;
+  background-image: url('../images/footer-bg.png');
+  background-size: 20px 91px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+.footer .contact ul li.tel {
+  font-size: 25px;
+  line-height: 1;
+  padding-bottom: 13px;
+}
+.footer .contact ul li:nth-child(1) {
+  background-position: left 12px;
+}
+.footer .contact ul li:nth-child(2) {
+  background-position: left -26px;
+}
+.footer .contact ul li:nth-child(3) {
+  background-position: left -60px;
+}
+.footer .link {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #fff;
+}
+.footer .link span {
+  font-size: 14px;
+  color: #fff;
+  margin-right: 10px;
+}
+.footer .link a {
+  font-size: 14px;
+  color: #c2c2c2;
+  margin-right: 20px;
+}
